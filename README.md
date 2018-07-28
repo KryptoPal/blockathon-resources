@@ -11,6 +11,7 @@ Resources for the July Arizona Blockathon
    * [yarn](https://yarnpkg.com/en/)
    * [node 9.1.0](https://nodejs.org/en/) (or better yet, install
      [nvm](https://github.com/creationix/nvm))
+   * [MetaMask](https://metamask.io)
      
 ### Quick Start
 
@@ -35,6 +36,10 @@ kpx.balanceOf('0x80ce9596ed870b0a03e57d3b311e5c67c29e1d26').then(_bal => web3.fr
 ```
 
 ### Resources
+
+#### Ethereum testnet
+
+Testnet tools: http://dashboard.testnet.kryptopal.io/#stats
 
 #### API/Hosted Node
 
