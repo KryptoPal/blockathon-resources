@@ -35,6 +35,23 @@ Then you can interct with it like such:
 kpx.balanceOf('0x80ce9596ed870b0a03e57d3b311e5c67c29e1d26').then(_bal => web3.fromWei(_bal.toNumber()))
 ```
 
+#### Interact with it in your dapp:
+
+Add the following to your `truffle.js` file:
+
+```javascript
+ kryptopal: {
+      provider: function() {
+        return new HDWalletProvider(
+          'inform square tuition cluster jelly say foster grant release wet lonely monkey', //throw-away blockathon mnemonic
+          'http://rpc.testnet.kryptopal.io:8545/'
+        );
+      },
+      gas: 3000000,
+      network_id: 28699,
+    },
+```
+
 ### Resources
 
 #### Ethereum testnet
