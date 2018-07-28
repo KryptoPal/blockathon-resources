@@ -26,7 +26,7 @@ Resources for the July Arizona Blockathon
 Inside the truffle console from the previous step copy and paste the following:
 
 ```
-let kpx; RootRegistryV0_1_0.at('0x2095c9c828586791e9bb0836255d6fdd8f87fae4').then(_root => _root.getLatestProxyAddr("ContractRegistry")).then(_proxy => ContractRegistryV0_1_0.at(_proxy)).then(_registry => _registry.getLatestProxyAddr("KryptoX777")).then(_kpxProxy => KryptoX777V0_1_0.at(_kpxProxy)).then(_kpx => kpx=_kpx))
+let kpx; RootRegistryV0_1_0.at('0x2095c9c828586791e9bb0836255d6fdd8f87fae4').then(_root => _root.getLatestProxyAddr("ContractRegistry")).then(_proxy => ContractRegistryV0_1_0.at(_proxy)).then(_registry => _registry.getLatestProxyAddr("KryptoX777")).then(_kpxProxy => KryptoX777V0_1_0.at(_kpxProxy)).then(_kpx => kpx=_kpx)
 ```
 
 Then you can interct with it like such:
