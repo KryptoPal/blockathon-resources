@@ -4,6 +4,14 @@ Resources for the July Arizona Blockathon
 
 ## Using this repo
 
+#### Prereqs
+
+1. Make sure you are using a unix flavor operating system for everything
+2. Install some stuff:
+   * [yarn](https://yarnpkg.com/en/)
+   * [node 9.1.0](https://nodejs.org/en/) (or better yet, install
+     [nvm](https://github.com/creationix/nvm))
+     
 ### Quick Start
 
 `yarn install`
