@@ -59,6 +59,8 @@ Add the following to your `truffle.js` file:
 Testnet tools: http://dashboard.testnet.kryptopal.io/#stats
 
 #### API/Hosted Node
+ 
+** Note: you need to be connected to the testnet (see QuickStart section) in order to be able to call certain API functions **
 
 Web UI here: http://api.testnet.kryptopal.io:8080/swagger-ui.html
 
