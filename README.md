@@ -47,6 +47,8 @@ Web UI here: http://api.testnet.kryptopal.io:8080/swagger-ui.html
 
 Docs here: https://documenter.getpostman.com/view/3526214/kryptopalapi/RW1Yofsg
 
+Web3 JSON RPC docs: https://github.com/ethereum/wiki/wiki/JSON-RPC
+
 #### SDK examples:
 
 Android: https://github.com/KryptoPal/sample-android-project/settings
