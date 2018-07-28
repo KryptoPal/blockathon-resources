@@ -8,11 +8,11 @@ Resources for the July Arizona Blockathon
 
 `yarn install`
 
-### Connect to a Kryptopal Testnet Node
+#### Connect to a Kryptopal Testnet Node
 
 `yarn run connect:provider`
 
-### Interact with a predeployed token contract
+#### Interact with a predeployed token contract
 
 Inside the truffle console from the previous step copy and paste the following:
 
