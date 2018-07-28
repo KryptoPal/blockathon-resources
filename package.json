@@ -1,0 +1,38 @@
+{
+  "name": "blockathon-resources",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:KryptoPal/blockathon-resources.git",
+  "author": "jaycenhorton <jaycen.horton@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "truffle": "^4.1.13",
+    "truffle-hdwallet-provider": "^0.0.5",
+    "@jaycenhorton/eth-gas-reporter": "^0.1.1",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "eslint": "4.10.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eth-ens-namehash": "^2.0.8",
+    "eth-signer": "^0.3.4",
+    "ethereum-ens": "^0.7.4",
+    "ethereumjs-abi": "^0.6.5",
+    "prettier": "^1.13.6",
+    "solium": "^1.1.7",
+    "web3": "1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "zeppelin-solidity": "^1.11.0"
+  },
+  "scripts": {
+    "connect:provider": "`yarn bin`/truffle console --network=kryptopal "
+  }
+}

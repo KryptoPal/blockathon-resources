@@ -1,0 +1,341 @@
+{
+  "contractName": "IEIP820Implementer",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "name": "interfaceHash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "canImplementInterfaceForAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.18;\n\ninterface IEIP820Implementer {\n    /// @notice Contracts that implement an interferce in behalf of another contract must return true\n    /// @param addr Address that the contract woll implement the interface in behalf of\n    /// @param interfaceHash keccak256 of the name of the interface\n    /// @return EIP820_ACCEPT_MAGIC if the contract can implement the interface represented by\n    ///  `ìnterfaceHash` in behalf of `addr`\n    function canImplementInterfaceForAddress(address addr, bytes32 interfaceHash) view public returns(bytes32);\n}",
+  "sourcePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/EIP820/IEIP820Implementer.sol",
+  "ast": {
+    "absolutePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/EIP820/IEIP820Implementer.sol",
+    "exportedSymbols": {
+      "IEIP820Implementer": [
+        1777
+      ]
+    },
+    "id": 1778,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1767,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1777,
+        "linearizedBaseContracts": [
+          1777
+        ],
+        "name": "IEIP820Implementer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": "@notice Contracts that implement an interferce in behalf of another contract must return true\n @param addr Address that the contract woll implement the interface in behalf of\n @param interfaceHash keccak256 of the name of the interface\n @return EIP820_ACCEPT_MAGIC if the contract can implement the interface represented by\n  `ìnterfaceHash` in behalf of `addr`",
+            "id": 1776,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "canImplementInterfaceForAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1772,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1769,
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "501:12:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1768,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "501:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1771,
+                  "name": "interfaceHash",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "515:21:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1770,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "515:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "500:37:10"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 1775,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1774,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "558:7:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1773,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "558:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "557:9:10"
+            },
+            "scope": 1777,
+            "src": "460:107:10",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1778,
+        "src": "26:543:10"
+      }
+    ],
+    "src": "0:569:10"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/EIP820/IEIP820Implementer.sol",
+    "exportedSymbols": {
+      "IEIP820Implementer": [
+        1777
+      ]
+    },
+    "id": 1778,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1767,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:10"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1777,
+        "linearizedBaseContracts": [
+          1777
+        ],
+        "name": "IEIP820Implementer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": "@notice Contracts that implement an interferce in behalf of another contract must return true\n @param addr Address that the contract woll implement the interface in behalf of\n @param interfaceHash keccak256 of the name of the interface\n @return EIP820_ACCEPT_MAGIC if the contract can implement the interface represented by\n  `ìnterfaceHash` in behalf of `addr`",
+            "id": 1776,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "canImplementInterfaceForAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1772,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1769,
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "501:12:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1768,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "501:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1771,
+                  "name": "interfaceHash",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "515:21:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1770,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "515:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "500:37:10"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 1775,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1774,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1776,
+                  "src": "558:7:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1773,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "558:7:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "557:9:10"
+            },
+            "scope": 1777,
+            "src": "460:107:10",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1778,
+        "src": "26:543:10"
+      }
+    ],
+    "src": "0:569:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-19T04:57:34.849Z"
+}

@@ -1,0 +1,97 @@
+{
+  "contractName": "Registrar",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058209a23e40895d8bc9dc01ae5208147aa82148088b7a40f91542d1ff7df6206103c0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058209a23e40895d8bc9dc01ae5208147aa82148088b7a40f91542d1ff7df6206103c0029",
+  "sourceMap": "26:24:18:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:24:18;;;;;;;",
+  "deployedSourceMap": "26:24:18:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\n\ncontract Registrar {\n \n}",
+  "sourcePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/ens/Registrar.sol",
+  "ast": {
+    "absolutePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/ens/Registrar.sol",
+    "exportedSymbols": {
+      "Registrar": [
+        2687
+      ]
+    },
+    "id": 2688,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2686,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:18"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2687,
+        "linearizedBaseContracts": [
+          2687
+        ],
+        "name": "Registrar",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2688,
+        "src": "26:24:18"
+      }
+    ],
+    "src": "0:50:18"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/ubuntu/dev/Kryptopal/kryptopal-contracts/contracts/ens/Registrar.sol",
+    "exportedSymbols": {
+      "Registrar": [
+        2687
+      ]
+    },
+    "id": 2688,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2686,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:18"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2687,
+        "linearizedBaseContracts": [
+          2687
+        ],
+        "name": "Registrar",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 2688,
+        "src": "26:24:18"
+      }
+    ],
+    "src": "0:50:18"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-19T04:57:34.879Z"
+}
